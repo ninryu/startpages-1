@@ -55,7 +55,7 @@ function dark_colors() {
 function light_colors() {
     let link = document.getElementsByTagName('a');
     let mode_id = document.getElementById("mode");
-    document.body.style.background = "#FFE8D4";
+    document.body.style.background = "#FFFFFF";
     document.getElementById("greeting").style.color = "#767283";
     mode_id.src = "ico/dark.png";
     mode_id.style.filter = "invert(58%) sepia(12%) saturate(482%) hue-rotate(148deg) brightness(94%) contrast(86%)";
